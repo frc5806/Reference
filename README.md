@@ -4,7 +4,11 @@ A quick primer on working as a programmer on team 5806.
 
 ## Git
 
-Git is our version control system. A VCS is used for sharing code changes between programmers. When you want to snapshot your code at a point with git, you make a `commit`. [Here](https://guides.github.com/activities/hello-world/) is a tutorial on how to use github. [Here](http://juristr.com/blog/2013/04/git-explained/) is a nice, more in-depth primar on working with git.
+Git is our version control system. A VCS is used for sharing code changes between programmers. [Here](https://guides.github.com/activities/hello-world/) is a tutorial on how to use github. [Here](http://juristr.com/blog/2013/04/git-explained/) is a nice, more in-depth primar on working with git.
+
+### GUI git
+
+[Here](https://desktop.github.com/) is the link to github's desktop git program.
 
 ### Command line git
 
