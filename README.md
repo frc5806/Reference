@@ -260,6 +260,5 @@ public class CatTank {
 
 As you can see in this example, not only is the class documented but also the constructor, the methods, and the variables. 
 
-If you'd like to make a comment that isn't documentation, such as a note to a teammate or a clarification on something messy, three slashes should be used rather than two (or in Python, two hashes instead of one). This helps distinguish documentation for somebody just browsing the code, and makes the file easier to parse for automatic documentation generators such as doxygen and cldoc.  Additionally, comments should have a space before the message. For example:
-
-```/// This is a comment```.
+If you'd like to make a comment that isn't documentation, such as a note to a teammate or a clarification on something messy, three slashes should be used rather than two (or in Python, two hashes instead of one). This helps distinguish documentation for somebody just browsing the code, and makes the file easier to parse for automatic documentation generators such as doxygen and cldoc.  Additionally, comments should have a space between the forward
+slashes and the comment message. 
