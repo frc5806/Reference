@@ -20,3 +20,11 @@ An primar on the tools used by members of team 5806 Programming and Electronics.
 ### Sensory Fusion
 
 ## Common Sensors
+
+### Distance Sensors
+
+### USB Camera
+
+### IMU
+
+### Encoders
