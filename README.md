@@ -16,6 +16,8 @@ An introduction to the programming and electronics departement of team 5806.
 
 ### Command line git
 
+http://gitimmersion.com/index.html
+
 ## Eclipse
 
 ## WPILib
