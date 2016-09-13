@@ -188,41 +188,9 @@ if (5 == 5)
 
 Get over it.
 
-#### Rule #2: Tabs, not spaces
+#### Rule #2: Spaces, not tabs
 
-Some people indent each block of code with 4 spaces, some with 2. We do neither. We indent with tabs.
-
-#### Rule #3: Line length
-
-This rule is a little more nuanced.  Code should be concise and readable, but this doesn't mean to throw everything on one line.  80 characters per line is the soft limit, while 100 characters per line is the hard limit. This can be achieved using a number of strategies; in particular, do not be afraid to break up long declarations or booleans into lines:
-
-```cpp
-
-/// this
-int ohno = ((25*14)/22)*(3904-234+423)+((223*13254)/232)*(3953204-2334+4223)
-
-/// should be this
-int ohno = ((25*14)/22)*(3904-234+423)
-		  +((223*13254)/232)*(3953204-2334+4223)
-```
-
-As most languages ignore whitespace in most situations, this is a good strategy for making code more readable.
-
-#### Rule #4: Control structures
-
-As part of making code concise and grouping blocks together, related code blocks should be grouped together as much as possible.  Example:
-
-```cpp
-if (...) {
-	/// do stuff
-} else if (...) {
-	/// do stuff
-} else {
-	/// do more stuff
-}
-```
-
-This should also be followed (in most cases) with try-catch statements and do-while loops. 
+Four spaces. Not two spaces, not tabs. Deal with it.
 
 ## Version Control
 
