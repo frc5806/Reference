@@ -1,12 +1,12 @@
 # Tutorials
 
-An introduction to the programming and electronics departement of team 5806.
+An introduction to the programming and electronics departement of FRC Team 5806.
 
 # Table of Contents
 
 * [Tool Primar](#tool-primar)
-* [Practice Problems](#practice-problems)
-* [Style Guide](#style-guide)
+* [Practice Problems](https://github.com/frc5806/Tutorials/blob/master/PracticeProblems.md)
+* [Style Guide](https://github.com/frc5806/Tutorials/blob/master/StyleGuide.md)
 
 # Tool Primar
 
