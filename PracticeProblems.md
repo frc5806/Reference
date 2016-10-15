@@ -1,6 +1,6 @@
 # Practice Problems
 
-To familiarize FRC 5806 programmers with robotics programming we've drafted this set of problems relating to robot control. These questions begin general and simple, and evolve to become specific and complex. On later questions it may be helpful to work with a group. Additionally, try to see if certain problems are more your niche then others; you may find that you're best suited towards data structures, sensor processing, or computer vision.
+To familiarize FRC 5806 programmers with robotics programming we've drafted this set of problems relating to robot control. These questions begin general and simple, and evolve to become specific and complex. On later questions it may be helpful to work with a group. Additionally, try to see if certain problems are more your niche then others; you may find that you're best suited towards data structures, sensor processing, or computer vision.  In order to be on FRC 5806 P&E, you must complete all of the General and Object Oriented problems, at least one problem each from Robotics, Electrical, and Computer Vision, and all of the problems one of the aformentioned categories (to form a specialty).
 
 ## General Problems
 
@@ -47,13 +47,13 @@ Now here comes the tricky part: write a program that drives the robot in a sine 
 ![siny robot](http://i.giphy.com/sajxSgoRSfh60.gif)
 
 
-### Gyroscope
+### Gyro
 
 Imagine you have a sensor that gives you your current rotational velocity.   Write a `while (true)` that turns a specific angle by getting rotational velocity in degrees/sec from a dummy function `float getGyro()`.  You can adjust your robot turning velocity with the dummy function `void turn(int power)`, power being an integer from -100 to 100 (0 being brake).
 
 Now try using this sensor to keep track of robot orientation from 0-360, starting at an orientation of 0.
 
-### Sensor Mapping
+### Lidar
 
 Imagine you have a constantly rotating distance sensor strapped to the top of your robot.  The sensor can read a distance value (like an ultrasonic sensor), in addition to the angle that it is currently at (0-360, clockwise where 0 is pointing forwards).  Your task is to form a 2d image of nearby obstacles using this sensor.  You are operating in a `while (true)` loop, and can call dummy functions `float getDistance()` and `float getAngle()`.  Over time build a 2D boolean array representing your image.
 
@@ -61,15 +61,13 @@ The previous paragraph assumes that the sensor reads in a direct line.  However,
 
 If you're really insane, there's yet another degree of complexity we can add to this fun problem.  Currently you are mapping discrete points rather than lines.  If the robot is trapped in a circular room but has only taken 4 sensor readings, it only knows that there are 4 single-pixel obstacles around itself.   To compensate for this we must maintain yet another 2D image, where a predicted image is formed by connecting the dots on the first image.   Try different methods of isolating discrete obstacles, for example defining a threshold pixel distance where dots should or should not be connected.
 
-### Kinematics and Control
+### Kinematics
 
-Kiwi drive is a drivetrain with three omniwheels arranged at the edges of a robot in an equilateral triangle, as such:
+Differential drive (or tank drive) is a drivetrain with two wheels arranged at the edges of a robot, as such:
 
-![Kiwi drive diagram](http://i.stack.imgur.com/x6u31.png)
+![Differential drive robot](http://img.deusm.com/eetimes/2014/01/1320544/rex-robot-brain-02.jpg)
 
-Write a function that maps a 3D joystick input of X velocity, Y veloctity, and rotational velocity scaled from -100 to 100 to three motor values scaled -100 to 100.   This question requires physics background, in particular vectors and torque.
-
-If you were succesful, try it the other way around; from given motor inputs A, B, and C update the position (x,y,theta) of a simulated robot.
+Write a function that maps the tangent velocity of each wheel to the consequential translational and rotational velocity of the robot, given distance between the two wheels as `l`.  This question requires physics background, in particular vectors and torque.
 
 ## Electrical Problems
 
@@ -84,6 +82,10 @@ Next, write a `void addDevice(Device device, double hours)` method in the `Batte
 ### Efficiency
 
 Finally, write a `void addDevice(Device device, double hours, double efficiency)` method in the `Battery` class that accounts for inefficient voltage regulation.  Efficiency is a double ranging from 0-1, and should be overridden as 1 if the device and battery voltage are identical (as no voltage regulator is required).
+
+### Soldering and Hands-On Test
+
+Speak to Michael or Josh if you plan to do this question.  It'll likely involve a project with soldering and hands-on electrical work. 
 
 ## Computer Vision Problems
 
