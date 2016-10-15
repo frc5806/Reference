@@ -22,7 +22,7 @@ Write a function that correctly computes the factorial of a number recursively.
 
 ### Shape
 
-Define a Shape object, where the object is any two dimensional figure, and has the following characteristics: a name, a perimeter, and a surface area.
+Define a Shape object, where the object is any two dimensional figure, and has the following characteristics: a name, a perimeter, and an area.
 
 ### Circle
 
