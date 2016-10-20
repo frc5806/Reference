@@ -14,6 +14,10 @@ Write a program that accepts a base ten (non-fractional) number at the command l
 
 Write a function that correctly computes the factorial of a number recursively.
 
+### Selection Sort
+
+Implement selection sort in Java and use it to sort this list: [48, -1, 2, 5, 1, 6, 6, 8, 10, 100, 77].
+
 ## Object Oriented Problems
 
 ### Shape
