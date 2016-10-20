@@ -2,13 +2,17 @@
 
 To familiarize FRC 5806 programmers with robotics programming we've drafted this set of programming problems. These questions begin general and simple, and evolve to become specific and complex. 
 
-On later questions it may be helpful to work with a group. Additionally, try to see if certain problems are more your niche then others; you may find that you're best suited towards data structures, sensor processing, or computer vision.  In order to be on FRC 5806 P&E, you must complete all of the General and Object Oriented problems, at least one problem each from Robotics, Electrical, and Computer Vision, and all of the problems one of the aformentioned categories (to form a specialty).
+**In order to be on FRC 5806 P&E, you must complete all of the General and Object Oriented problems, at least one problem each from Robotics, Electrical, and Computer Vision**
+
+Use of Stackoverflow and other coding sites is encourage. Pieces of your program may be copied from the internet. Do not search up the whole problem on the internet (ex. "Recursive Factorial in Java?"). This will result in serious consequences. 
 
 ## General Problems
 
 ### Decimal to Binary
 
 Write a program that accepts a base ten (non-fractional) number at the command line and outputs the binary representation of that number.
+
+Use of the Java standard library is encouraged.
 
 ### Recursive Factorial
 
