@@ -85,7 +85,7 @@ Speak to Michael or Josh if you plan to do this question.  It'll likely involve 
 
 ## Computer Vision Problems
 
-Feel free to find code examples on line. Much of what these problems are testing is your ability to install software, familiarize yourself with a library, and follow online tutorials. 
+For this section, feel free to find code examples online and search up things like "tracking a tenis ball with OpenCV". What these problems are largely testing is your ability to install software, familiarize yourself with a library, and follow online tutorials.
 
 ### Tracking a ball
 
