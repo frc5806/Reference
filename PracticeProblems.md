@@ -2,7 +2,7 @@
 
 To familiarize FRC 5806 programmers with robotics programming we've drafted this set of programming problems. These questions begin general and simple, and evolve to become specific and complex. 
 
-**In order to be on FRC 5806 P&E, you must complete all of the General and Object Oriented problems, all of one section of then General and Object Oriented, and at least one problem each from Robotics, Electrical, and Computer Vision**
+**In order to be on FRC 5806 P&E, you must complete all of the General and Object Oriented problems.  In addition, from Robotics, Electrical, and Computer Vision you must complete one full section, and one problem each from the two remaining sections.**
 
 Use of Stackoverflow and other coding sites is encourage. Pieces of your program may be copied from the internet. Do not search up the whole problem on the internet (ex. "Recursive Factorial in Java?"). This will result in serious consequences. 
 
