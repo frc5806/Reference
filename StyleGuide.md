@@ -46,9 +46,9 @@ if (5 == 5)
 
 Get over it.
 
-#### Rule #2: Spaces, not tabs
+#### Rule #2: Tabs, not spaces
 
-Four spaces. Not two spaces, not tabs. Deal with it.
+Heading says it all
 
 ## Version Control
 
